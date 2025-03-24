@@ -12,26 +12,26 @@ console.log(food);
 
 //Question3//
 
-let story = "The quick brown fox jumps over the lazy dog";
-function countOccurences(text,word){
-    return
+// let story = "The quick brown fox jumps over the lazy dog";
+// function countOccurences(text,word){
+//     return
 
-text.tolowercase().split(word.tolowerCase()).length-1
-}
-console.log(countOccurences(story,"the"));
+// text.tolowercase().split(word.tolowerCase()).length-1
+// }
+// console.log(countOccurences(story,"the"));
 
-console.log(countOccurences(story,"brown"));
+// console.log(countOccurences(story,"brown"));
 
 
-//  Question4//
+//Using JavaScript, find the following words from the following strings:1. "are"const string1 = "The pupils are reading in the library";2. "sitting"const string2 = "The child was sitting on the table before it fell"
 
 let string1 = "The pupils are reading in the library";
 
 let string2 = "The child was sitting on the table before it fell";
 
-let word1 = string1.includes("are") ? "are" : "not found";
+let word1 = string1.includes("are") 
 
-let word2 = string2.includes("sitting") ? "sitting" : "not found";
+let word2 = string2.includes("sitting") 
 
 console.log(word1);
 console.log(word2); 
