@@ -38,4 +38,34 @@ console.log(string1.includes("are"));
 let string2 = "The child was sitting on the table before it fell";
 console.log(string2.includes("sitting"));
 
+//Extract the last four characters from the string below;"extravaganza"
+let d ="extravanza"
+let lastfour = d.slice(-4)
+console.log(lastfour);
+
+//1. Write a program that removes all vowels from a string.
+
+function removeVowels(str) {
+    return str.replace(/[aeiouAEIOU]/g, '');
+}
+let inputString = "Hello World";
+let result = removeVowels(inputString);
+console.log(result);
+
+function removeVowels(str){
+ return str.replace(/[aeiouAEIOU]/g,"")
+}
+let b = "I love Amuor";
+let c = removeVowels(b);
+console.log(c);
+
+function removeVowels(str){
+ return   str.replace(/[aeiouAEIOU]/g,"")
+}
+let m = "what is your name?"
+let n = removeVowels(m);
+console.log(n)
+
+
+
 
